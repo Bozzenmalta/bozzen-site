@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contatti | Bozzen (Malta) Limited</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Bozzen</div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Servizi</a></li>
+          <li><a href="crm.html">CRM</a></li>
+          <li><a href="about.html">Chi Siamo</a></li>
+          <li><a href="contact.html" class="active">Contatti</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section
+      class="page-hero"
+      style="background-image: url('images/hero.png');"
+    >
+      <h1>Contattaci</h1>
+    </section>
+
+    <section class="section">
+      <h2>Mettiti in contatto</h2>
+      <p>
+        Compila il modulo oppure utilizza i nostri recapiti per parlare con noi.
+        Saremo lieti di rispondere alle tue domande e programmare una
+        consulenza.
+      </p>
+      <div class="contact-details">
+        <p><strong>Email:</strong> <a href="mailto:info@bozzen.com">info@bozzen.com</a></p>
+        <p><strong>Telefono:</strong> +356&nbsp;123&nbsp;456&nbsp;789</p>
+        <p><strong>Indirizzo:</strong> Malta</p>
+      </div>
+      <form
+        class="contact-form"
+        action="mailto:info@bozzen.com"
+        method="post"
+        enctype="text/plain"
+      >
+        <input type="text" name="Nome" placeholder="Nome" required />
+        <input type="email" name="Email" placeholder="Email" required />
+        <textarea
+          name="Messaggio"
+          rows="6"
+          placeholder="Messaggio"
+          required
+        ></textarea>
+        <button type="submit" class="cta-btn">Invia</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Bozzen (Malta) Limited. Tutti i diritti riservati.</p>
+    </footer>
+  </body>
+</html>
